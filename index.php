@@ -30,7 +30,7 @@
     <meta property="og:title" content="Home">
     <meta property="og:type" content="website">
   </head>
-  <body data-home-page="Home.html" data-home-page-title="Home" class="u-body u-stick-footer"><header class="u-clearfix u-header u-sticky u-sticky-7930 u-header" id="sec-5caa"><div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xl u-sheet-1">
+  <body data-home-page="Home.html" data-home-page-title="Home" class="u-body u-stick-footer"><header class="u-clearfix u-grey-10 u-header u-sticky-7930 u-header" id="sec-5caa"><div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xl u-sheet-1">
         <a href="https://nicepage.com" class="u-image u-logo u-image-1" data-image-width="309" data-image-height="104">
           <img src="images/banner.png" class="u-logo-image u-logo-image-1">
         </a>
