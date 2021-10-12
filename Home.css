@@ -609,7 +609,6 @@
 
 .u-section-4 .u-accordion-pane-1 {
   min-height: 65px;
-  height: auto;
 }
 
 .u-section-4 .u-container-layout-1 {
@@ -629,7 +628,6 @@
 
 .u-section-4 .u-accordion-pane-2 {
   min-height: 65px;
-  height: auto;
 }
 
 .u-section-4 .u-container-layout-2 {
@@ -649,7 +647,6 @@
 
 .u-section-4 .u-accordion-pane-3 {
   min-height: 65px;
-  height: auto;
 }
 
 .u-section-4 .u-container-layout-3 {
@@ -674,6 +671,18 @@
 
   .u-section-4 .u-accordion-1 {
     width: 940px;
+  }
+
+  .u-section-4 .u-accordion-pane-1 {
+    height: auto;
+  }
+
+  .u-section-4 .u-accordion-pane-2 {
+    height: auto;
+  }
+
+  .u-section-4 .u-accordion-pane-3 {
+    height: auto;
   }
 }
 
