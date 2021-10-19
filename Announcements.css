@@ -14,7 +14,6 @@
 .u-section-1 .u-custom-html-1 {
   min-height: 409px;
   background-image: linear-gradient(to right, #478ac9, #adf6f2);
-  height: auto;
   width: 402px;
   margin: 30px auto 0;
 }
@@ -53,6 +52,7 @@
 
 @media (max-width: 1199px) {
   .u-section-1 .u-custom-html-1 {
+    height: auto;
     width: 400px;
   }
 
@@ -269,7 +269,6 @@
 
 .u-section-3 .u-custom-html-1 {
   min-height: 1007px;
-  height: auto;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -283,6 +282,10 @@
 }
 
 @media (max-width: 1199px) {
+  .u-section-3 .u-custom-html-1 {
+    height: auto;
+  }
+
   .u-section-3 .u-text-1 {
     margin-left: calc(((100% - 940px) / 2));
     margin-right: calc(((100% - 940px) / 2));
