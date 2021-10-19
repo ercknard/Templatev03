@@ -34401,11 +34401,14 @@ a.u-link.u-text-hover-grey-90:hover {
         }
         h6
         {
-        font-weight: 400;
-        font-size: 1.125rem;
+        font-size: 1.5rem;
         line-height: 1.2;
         margin-top: 20px;
         margin-bottom: 20px;
+        font-weight: 400;
+        list-icon-spacing: 0.3;
+        list-icon-size: 0.8;
+        font-family: Montserrat,sans-serif;
         }
         p.u-large-text
         {
@@ -34532,6 +34535,13 @@ a.u-link.u-text-hover-grey-90:hover {
         /** cms-rules **/
 
         /** color-rules **/
+        .u-overlap.u-overlap-transparent:not(.u-overlap-contrast) .u-header :not(.u-nav-item) > h6,
+        .u-gradient > .u-container-layout > h6,
+        .u-image:not(.u-shading) > .u-container-layout > h6,
+        h6
+        {
+        color: #db545a;
+        }
         .u-overlap.u-overlap-transparent:not(.u-overlap-contrast) .u-header :not(.u-nav-item) > a,
         .u-gradient > .u-container-layout > a,
         .u-image:not(.u-shading) > .u-container-layout > a,
@@ -34588,6 +34598,10 @@ a.u-link.u-text-hover-grey-90:hover {
         /** color-rules **/
 
         /** alt-color-rules **/
+        .u-body-color h6,.u-palette-1-base h6,.u-palette-1-dark-3 h6,.u-palette-1-dark-2 h6,.u-palette-1-dark-1 h6,.u-palette-1 h6,.u-palette-1-light-1 h6,.u-palette-2-base h6,.u-palette-2-dark-3 h6,.u-palette-2-dark-2 h6,.u-palette-2-dark-1 h6,.u-palette-2 h6,.u-palette-2-light-1 h6,.u-palette-3-dark-3 h6,.u-palette-3-dark-2 h6,.u-palette-3-dark-1 h6,.u-palette-4-base h6,.u-palette-4-dark-3 h6,.u-palette-4-dark-2 h6,.u-palette-4-dark-1 h6,.u-palette-5-dark-3 h6,.u-palette-5-dark-2 h6,.u-palette-5-dark-1 h6,.u-grey-40 h6,.u-grey-30 h6,.u-grey-90 h6,.u-grey-80 h6,.u-grey-75 h6,.u-black h6,.u-grey-70 h6,.u-grey-60 h6,.u-grey-50 h6,.u-grey-dark-3 h6,.u-grey-dark-2 h6,.u-grey-dark-1 h6,.u-grey h6,.u-shading h6,.u-overlap-contrast .u-header h6:not(.u-nav-link):not(.u-btn)
+        {
+        color: #f1b5b8;
+        }
         .u-body-color a,.u-palette-1-base a,.u-palette-1-dark-3 a,.u-palette-1-dark-2 a,.u-palette-1-dark-1 a,.u-palette-1 a,.u-palette-1-light-1 a,.u-palette-2-base a,.u-palette-2-dark-3 a,.u-palette-2-dark-2 a,.u-palette-2-dark-1 a,.u-palette-2 a,.u-palette-2-light-1 a,.u-palette-3-dark-3 a,.u-palette-3-dark-2 a,.u-palette-3-dark-1 a,.u-palette-4-base a,.u-palette-4-dark-3 a,.u-palette-4-dark-2 a,.u-palette-4-dark-1 a,.u-palette-5-dark-3 a,.u-palette-5-dark-2 a,.u-palette-5-dark-1 a,.u-grey-40 a,.u-grey-30 a,.u-grey-90 a,.u-grey-80 a,.u-grey-75 a,.u-black a,.u-grey-70 a,.u-grey-60 a,.u-grey-50 a,.u-grey-dark-3 a,.u-grey-dark-2 a,.u-grey-dark-1 a,.u-grey a,.u-shading a,.u-overlap-contrast .u-header a:not(.u-nav-link):not(.u-btn)
         {
         color: #adcce9;

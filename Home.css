@@ -460,6 +460,10 @@
   .u-section-2 .u-btn-1 {
     margin-bottom: 10px;
   }
+}
+
+.u-section-2 .u-shape-1 {
+  transition-property: color, background-color, background-image, border-width, box-shadow, text-shadow, opacity, border-radius, border-color, font-size, font-style, font-weight, font-weight, text-decoration, letter-spacing, transform !important;
 }.u-section-3 {
   background-image: linear-gradient(to right, #478ac9, #adf6f2);
 }
