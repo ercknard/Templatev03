@@ -244,32 +244,10 @@
               <p class="u-text u-text-2">Registration is open only for people residing within the vicinity of Barangay Maysilo, Malabon City.</p>
             </div>
           </div>
-          <div class="u-clearfix u-custom-html u-custom-html-1">
-            <style></style><!--?php if(isset($_SESSION['message'])): ?-->
-            <div class="$_SESSION['message_type'] ?> alert alert-<?=" role="alert"><!--?= $_SESSION['message'] ?--></div><!--?php endif ?-->
-            <form method="POST" action="sms.php" width="100%">
-              <div class="form-group">
-                <label for="username">Username</label>
-                <input type="text" name="username" id="username">
-              </div>
-              <div class="form-group">
-                <label for="password">Password</label>
-                <input type="password" name="password" id="password">
-              </div>
-              <div class="form-group">
-                <label for="contact">Contact #</label>
-                <input type="text" name="contact" id="contact">
-              </div>
-              <input value="Register" type="submit" class="btn btn-block btn-primary">
-            </form>
-          </div>
-          <div class="u-custom-php u-custom-php-1" data-custom-php="<!--custom_php--><?php 
-session_start();
-?>
-<!--/custom_php-->"></div>
-        </div><button class="u-dialog-close-button u-icon u-icon-circle u-text-palette-1-base u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 16 16" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-6e8b"></use></svg><svg class="u-svg-content" viewBox="0 0 16 16" x="0px" y="0px" id="svg-6e8b"><rect x="7" y="0" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -3.3138 8.0002)" width="2" height="16"></rect><rect x="0" y="7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -3.3138 8.0002)" width="16" height="2"></rect></svg></button>
+          <button class="u-dialog-close-button u-icon u-icon-circle u-text-palette-1-base u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 16 16" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-6e8b"></use></svg><svg class="u-svg-content" viewBox="0 0 16 16" x="0px" y="0px" id="svg-6e8b"><rect x="7" y="0" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -3.3138 8.0002)" width="2" height="16"></rect><rect x="0" y="7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -3.3138 8.0002)" width="16" height="2"></rect></svg></button>
       </div>
-    </section><style>.u-section-8 {
+    </section>
+    <style>.u-section-8 {
   min-height: 1290px;
 }
 
