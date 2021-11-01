@@ -122,7 +122,7 @@
   .u-section-1 .u-btn-1 {
     margin-bottom: 30px;
   }
-}.u-section-2 {
+} .u-section-2 {
   background-image: linear-gradient(to right, #478ac9, #adf6f2);
 }
 
@@ -277,7 +277,7 @@
     font-size: 1.5rem;
     width: 229px;
   }
-}.u-section-3 {
+} .u-section-3 {
   background-image: linear-gradient(to right, #478ac9, #adf6f2);
 }
 
@@ -287,7 +287,6 @@
 
 .u-section-3 .u-custom-html-1 {
   min-height: 1007px;
-  height: auto;
   width: 1268px;
   margin: 0 -64px;
 }
@@ -302,6 +301,7 @@
 
 @media (max-width: 1199px) {
   .u-section-3 .u-custom-html-1 {
+    height: auto;
     width: 940px;
     margin-left: 0;
     margin-right: 0;

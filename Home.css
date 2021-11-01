@@ -1,4 +1,4 @@
-.u-section-1 {
+ .u-section-1 {
   background-image: none;
 }
 
@@ -209,6 +209,10 @@
   min-height: 256px;
 }
 
+.u-section-2 .u-list-item-1 {
+  background-size: auto;
+}
+
 .u-section-2 .u-container-layout-2 {
   padding: 30px 30px 0;
 }
@@ -251,6 +255,10 @@
 .u-section-2 .u-text-5 {
   font-style: italic;
   margin: 20px 1px 0;
+}
+
+.u-section-2 .u-list-item-3 {
+  background-size: auto;
 }
 
 .u-section-2 .u-container-layout-4 {
@@ -296,10 +304,6 @@
     min-height: 336px;
   }
 
-  .u-section-2 .u-list-item-1 {
-    background-size: auto;
-  }
-
   .u-section-2 .u-container-layout-2 {
     padding: 29px 22px;
   }
@@ -330,10 +334,6 @@
     margin-top: 17px;
     margin-left: 8px;
     margin-right: 8px;
-  }
-
-  .u-section-2 .u-list-item-3 {
-    background-size: auto;
   }
 
   .u-section-2 .u-container-layout-4 {
@@ -464,8 +464,8 @@
 }
 
 .u-section-2 .u-shape-1 {
-  transition-property: color, background-color, background-image, border-width, box-shadow, text-shadow, opacity, border-radius, border-color, font-size, font-style, font-weight, font-weight, text-decoration, letter-spacing, transform !important;
-}.u-section-3 {
+  transition-property: fill, color, background-image, background-color, stroke-width, border-style, border-width, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform !important;
+} .u-section-3 {
   background-image: linear-gradient(to right, #478ac9, #adf6f2);
 }
 
