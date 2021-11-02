@@ -33,7 +33,7 @@
     <meta property="og:description" content="">
     <meta property="og:type" content="website">
   </head>
-  <body class="u-body u-stick-footer"><header class="u-clearfix u-grey-10 u-header u-sticky u-header" id="sec-5caa"><div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-xl u-sheet-1">
+  <body data-home-page="Home.html" data-home-page-title="Home" class="u-body u-stick-footer"><header class="u-clearfix u-grey-10 u-header u-sticky u-header" id="sec-5caa"><div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-xl u-sheet-1">
         <a href="Home.html" data-page-id="63320719" class="u-image u-logo u-image-1" data-image-width="309" data-image-height="104" title="home">
           <img src="images/banner.png" class="u-logo-image u-logo-image-1">
         </a>
@@ -84,6 +84,7 @@
             <div class="alert alert-<?= $_SESSION['message_type'] ?>" role="alert">
                 <?= $_SESSION['message'] ?>
             </div>
+        <?php endif ?>  
               <div class="u-container-style u-layout-cell u-shape-rectangle u-size-30 u-layout-cell-2">
                 <div class="u-container-layout u-valign-middle u-container-layout-2">
                   <div class="u-container-style u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-gradient u-group u-radius-5 u-shape-round u-group-1">
