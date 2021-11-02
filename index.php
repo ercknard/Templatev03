@@ -165,7 +165,6 @@
         </div>
         <a href="Register.html" data-page-id="130709230" class="u-btn u-btn-round u-button-style u-gradient u-none u-radius-4 u-text-body-alt-color u-btn-1">Register</a>
       </div>
-      
     </section>
     <section class="u-border-1 u-border-palette-1-light-2 u-clearfix u-gradient u-hidden-sm u-hidden-xs u-section-3" id="sec-ffab">
       <div class="u-clearfix u-sheet u-sheet-1">
