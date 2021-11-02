@@ -703,6 +703,11 @@
 }
 
 @media (max-width: 767px) {
+  .u-section-4 .u-text-1 {
+    width: 103px;
+    margin-top: 13px;
+  }
+
   .u-section-4 .u-accordion-1 {
     width: 540px;
   }
