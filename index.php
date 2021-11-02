@@ -11,7 +11,7 @@
 <link rel="stylesheet" href="Home.css" media="screen">
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
-    <meta name="generator" content="Nicepage 3.28.3, nicepage.com">
+    <meta name="generator" content="Nicepage 3.29.1, nicepage.com">
     <link rel="icon" href="images/favicon.png">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
     
@@ -33,7 +33,7 @@
     <meta property="og:description" content="">
     <meta property="og:type" content="website">
   </head>
-  <body data-home-page="Home.html" data-home-page-title="Home" class="u-body u-stick-footer"><header class="u-clearfix u-grey-10 u-header u-sticky u-header" id="sec-5caa"><div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xl u-sheet-1">
+  <body class="u-body u-stick-footer"><header class="u-clearfix u-grey-10 u-header u-sticky u-header" id="sec-5caa"><div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-xl u-sheet-1">
         <a href="Home.html" data-page-id="63320719" class="u-image u-logo u-image-1" data-image-width="309" data-image-height="104" title="home">
           <img src="images/banner.png" class="u-logo-image u-logo-image-1">
         </a>
@@ -65,7 +65,7 @@
             <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
           </div>
         </nav>
-        <a href="#sec-85aa" class="u-btn u-btn-round u-button-style u-dialog-link u-gradient u-none u-radius-4 u-text-body-alt-color u-btn-1">Register</a>
+        <a href="Register.html" data-page-id="130709230" class="u-btn u-btn-round u-button-style u-gradient u-none u-radius-4 u-text-body-alt-color u-btn-1">Register</a>
       </div></header>
     <section class="skrollable u-clearfix u-white u-section-1" id="sec-025c">
       <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
@@ -100,7 +100,7 @@
     </section>
     <section class="u-align-center u-clearfix u-section-2" id="sec-257d">
       <div class="u-clearfix u-sheet u-sheet-1">
-        <div class="u-border-1 u-border-palette-1-light-2 u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-gradient u-shape u-shape-left u-shape-1"></div>
+        <div class="u-border-1 u-border-palette-1-light-2 u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-gradient u-hover-feature u-shape u-shape-left u-shape-1"></div>
         <div class="u-container-style u-group u-palette-1-base u-radius-6 u-shape-round u-group-1">
           <div class="u-container-layout u-valign-middle u-container-layout-1">
             <h4 class="u-text u-text-default u-text-1">What to do?</h4>
@@ -158,7 +158,7 @@
             </div>
           </div>
         </div>
-        <a href="#sec-85aa" class="u-btn u-btn-round u-button-style u-dialog-link u-gradient u-none u-radius-4 u-text-body-alt-color u-btn-1">Register</a>
+        <a href="Register.html" data-page-id="130709230" class="u-btn u-btn-round u-button-style u-gradient u-none u-radius-4 u-text-body-alt-color u-btn-1">Register</a>
       </div>
       
     </section>
@@ -178,8 +178,8 @@
       </div>
     </section>
     <section class="u-align-center u-clearfix u-section-4" id="sec-778f">
-      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
-        <h2 class="u-text u-text-default u-text-1">faq</h2>
+      <div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-xl u-sheet-1">
+        <h2 class="u-text u-text-default-lg u-text-default-md u-text-default-xl u-text-1">faq</h2>
         <p class="u-text u-text-2">Frequent asked question about <span style="font-weight: 700;">Flood o' Meter Barangay Maysilo Monitoring System.</span>
         </p>
         <div class="u-accordion u-collapsed-by-default u-faq u-spacing-20 u-accordion-1">
@@ -234,160 +234,5 @@
         <p class="u-small-text u-text u-text-variant u-text-white u-text-1">Flood o' Meter : Brgy. Maysilo Monitoring System.</p>
         <img class="u-image u-image-default u-preserve-proportions u-image-1" src="images/floodlogo.png" alt="" data-image-width="500" data-image-height="500">
       </div></footer>
-  <section class="u-align-center u-black u-clearfix u-container-style u-dialog-block u-opacity u-opacity-70 u-valign-top u-section-8" id="sec-85aa">
-      <div class="u-align-center u-container-style u-dialog u-radius-5 u-shape-round u-white u-dialog-1">
-        <div class="u-container-layout u-valign-top-xs u-container-layout-1">
-          <div class="u-align-center u-container-style u-group u-group-1">
-            <div class="u-container-layout">
-              <img class="u-image u-image-1" src="images/floodlogo1.png" data-image-width="500" data-image-height="500">
-              <h3 class="u-text u-text-default u-text-1">Registration Form :</h3>
-              <p class="u-text u-text-2">Registration is open only for people residing within the vicinity of Barangay Maysilo, Malabon City.</p>
-            </div>
-          </div>
-          <button class="u-dialog-close-button u-icon u-icon-circle u-text-palette-1-base u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 16 16" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-6e8b"></use></svg><svg class="u-svg-content" viewBox="0 0 16 16" x="0px" y="0px" id="svg-6e8b"><rect x="7" y="0" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -3.3138 8.0002)" width="2" height="16"></rect><rect x="0" y="7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -3.3138 8.0002)" width="16" height="2"></rect></svg></button>
-      </div>
-    </section>
-    <style>.u-section-8 {
-  min-height: 1290px;
-}
-
-.u-section-8 .u-dialog-1 {
-  width: 526px;
-  min-height: 645px;
-  box-shadow: 2px 2px 8px 0 rgba(128,128,128,1);
-  background-image: none;
-  height: auto;
-  margin: 0 auto 60px;
-}
-
-.u-section-8 .u-container-layout-1 {
-  padding: 20px 30px 0;
-}
-
-.u-section-8 .u-group-1 {
-  min-height: 328px;
-  width: 466px;
-  margin: 0 auto;
-}
-
-.u-section-8 .u-image-1 {
-  width: 174px;
-  height: 197px;
-  margin: 0 auto;
-}
-
-.u-section-8 .u-text-1 {
-  font-weight: 700;
-  margin: 0 auto;
-}
-
-.u-section-8 .u-text-2 {
-  margin: 20px 17px 0;
-}
-
-.u-section-8 .u-custom-html-1 {
-  height: auto;
-  min-height: 255px;
-  width: 340px;
-  margin: -22px auto 0;
-}
-
-.u-section-8 .u-custom-php-1 {
-  min-height: 32px;
-  height: auto;
-  margin: 16px 348px 0 38px;
-}
-
-.u-section-8 .u-icon-1 {
-  width: 31px;
-  height: 31px;
-  background-image: none;
-  left: auto;
-  top: 20px;
-  position: absolute;
-  right: 30px;
-}
-
-@media (max-width: 1199px) {
-  .u-section-8 .u-dialog-1 {
-    width: 526px;
-  }
-
-  .u-section-8 .u-group-1 {
-    width: 466px;
-  }
-
-  .u-section-8 .u-text-2 {
-    margin-left: 17px;
-    margin-right: 17px;
-  }
-
-  .u-section-8 .u-custom-html-1 {
-    margin-top: -22px;
-    width: 340px;
-  }
-
-  .u-section-8 .u-custom-php-1 {
-    width: 233px;
-    margin-left: 38px;
-    margin-right: 348px;
-  }
-}
-
-@media (max-width: 991px) {
-  .u-section-8 .u-container-layout-1 {
-    padding-top: 28px;
-  }
-
-  .u-section-8 .u-group-1 {
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  .u-section-8 .u-custom-html-1 {
-    margin-top: 205px;
-  }
-
-  .u-section-8 .u-custom-php-1 {
-    margin-top: -183px;
-  }
-}
-
-@media (max-width: 767px) {
-  .u-section-8 .u-container-layout-1 {
-    padding-top: 18px;
-  }
-}
-
-@media (max-width: 575px) {
-  .u-section-8 .u-dialog-1 {
-    width: 340px;
-  }
-
-  .u-section-8 .u-container-layout-1 {
-    padding-top: 7px;
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  .u-section-8 .u-group-1 {
-    width: 320px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .u-section-8 .u-text-2 {
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  .u-section-8 .u-custom-html-1 {
-    width: 320px;
-  }
-
-  .u-section-8 .u-custom-php-1 {
-    margin-right: 200px;
-    margin-left: 0;
-  }
-}</style></body>
+  </body>
 </html>
