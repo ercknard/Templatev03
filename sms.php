@@ -30,7 +30,7 @@ sendSMS($contact, $code);
 function sendSMS($cnumber, $vcode){
     $curl = curl_init();
 
-    $message = "From FloodO'Meter Maysilo water level Monitoring System. This is your verification code: ".$vcode;
+    $message = "From Maysilo Flood O' Meter. This is your verification code: # ".$vcode;
     $num = $cnumber;
 
     curl_setopt_array($curl, array(
@@ -45,8 +45,9 @@ function sendSMS($cnumber, $vcode){
         CURLOPT_POSTFIELDS => array('message' => $message, 'number' => $num ),
 
         // Insert your API here
+        // 53316f0a4a7326fdad5c18608c9e53d3
         CURLOPT_HTTPHEADER => array(
-        "X-TXTBOX-Auth: 53316f0a4a7326fdad5c18608c9e53d3"
+        "X-TXTBOX-Auth: 2d5ebffd0f558d60584eacf52151a8cf"
         ),
         ));
 

@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once('database.php');
+require_once('config.php');
 $inputtedCode = $_POST['code'];
 
 $correctCode = $_SESSION['otp'];
@@ -25,14 +25,14 @@ if($inputtedCode == $correctCode){
         $_SESSION['message'] = 'Something is wrong!';
     }
 
-    header('location: reg.php');
+    header('location: index.php');
     // $user = $pdo->prepare("INSERT INTO tblusers ('username', 'password', 'contact') VALUES (?, ?, ?)");
     // // Positional Parameter
     // $user->execute([$username, $password, $contact])
 }else{
     $_SESSION['message_type'] = 'danger';
     $_SESSION['message'] = 'Incorrect Code. Please try again!';
-    header('location: reg.php');
+    header('location: index.php');
 }
 ?>
 
