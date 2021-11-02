@@ -25,10 +25,6 @@ session_start();
                     <input type="text" name="username" id="username">
                 </div>
                 <div class="form-group">
-                    <label for="password">Password</label>
-                    <input type="password" name="password" id="password">
-                </div>
-                <div class="form-group">
                     <label for="contact">Contact #</label>
                     <input type="text" name="contact" id="contact">
                 </div>

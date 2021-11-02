@@ -26,10 +26,6 @@ if($inputtedCode == $correctCode){
     if ($conn->query($sql) === TRUE) {
         $_SESSION['message_type'] = 'success';
         $_SESSION['message'] = 'User has been inserted successfully!';
-        echo '<script type="text/JavaScript"> 
-        prompt("User has been inserted successfully!");
-        </script>'
-;
     } else {
         $_SESSION['message_type'] = 'warning';
         $_SESSION['message'] = 'Something is wrong!';

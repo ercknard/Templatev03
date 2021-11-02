@@ -80,6 +80,10 @@
                   <a href="Home.html#sec-257d" data-page-id="63320719" class="u-btn u-btn-round u-button-style u-radius-50 u-btn-1">How to?</a>
                 </div>
               </div>
+              <?php if(isset($_SESSION['message'])): ?>
+            <div class="alert alert-<?= $_SESSION['message_type'] ?>" role="alert">
+                <?= $_SESSION['message'] ?>
+            </div>
               <div class="u-container-style u-layout-cell u-shape-rectangle u-size-30 u-layout-cell-2">
                 <div class="u-container-layout u-valign-middle u-container-layout-2">
                   <div class="u-container-style u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-gradient u-group u-radius-5 u-shape-round u-group-1">
