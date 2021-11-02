@@ -21,11 +21,15 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 </head>
 <body>
     <h1 class="my-5">Hi, <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b>
-    <br> Welcome Maysilo Admin</h1>
+    <br> Welcome Admin</h1>
     <p>
         <a href="reset-password.php" class="btn btn-warning">Reset Your Password</a>
         <br>
+        <hr>
+        <br>
         <a href="logout.php" class="btn btn-danger ml-3">Sign Out of Your Account</a>
+        <br>
+        <hr>
         <br>
         <a href="logout.php" class="btn btn-warning">Admin Dashboard</a>
     </p>
