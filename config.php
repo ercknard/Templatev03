@@ -15,7 +15,7 @@ if($link === false){
 }
 
 try{
-    $pdo = new PDO($dbserver . $dbname, $dbusername, $dbpassword);
+    $pdo = new PDO($DB_SERVER, $DB_USERNAME, $DB_PASSWORD, $DB_NAME);
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     $pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_OBJ);
 }catch(PDOException $e){
