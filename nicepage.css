@@ -34672,37 +34672,24 @@ a.u-link.u-text-hover-grey-90:hover {
   font-size: 0.9375rem;
   letter-spacing: 1px;
   box-shadow: 0px 2px 6px 0 rgba(0,0,0,0.25);
-  margin: -39px 23px 31px auto;
+  margin: -38px 23px 31px auto;
   padding: 8px 36px 9px 35px;
 }
 @media (max-width: 1199px) {
   .u-header .u-menu-1 {
-    margin-top: -63px;
     margin-right: 178px;
   }
 
   .u-header .u-btn-1 {
-    margin-top: -39px;
+    margin-top: -38px;
     margin-right: 0;
   }
 }
 
 
 @media (max-width: 575px) {
-  .u-header .u-sheet-1 {
-    min-height: 172px;
-  }
-
   .u-header .u-menu-1 {
-    width: auto;
-    margin-top: -61px;
-    margin-right: 20px;
-  }
-
-  .u-header .u-btn-1 {
-    margin-top: 49px;
-    margin-right: auto;
-    margin-bottom: 15px;
+    margin-right: 112px;
   }
 }
  .u-footer {
