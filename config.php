@@ -1,16 +1,16 @@
 <?php
-/* Database credentials. Assuming you are running MySQL
-server with default setting (user 'root' with no password11) */
-define('DB_SERVER', 'us-cdbr-east-04.cleardb.com');
-define('DB_USERNAME', 'heroku_5142987c57081aa');
-define('DB_PASSWORD', 'f742c533');
-define('DB_NAME', 'b64914f07d5e65');
- 
-/* Attempt to connect to MySQL database */
-$link = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
- 
-// Check connection
-if($link === false){
-    die("ERROR: Could not connect. " . mysqli_connect_error());
+
+$dbserver = "mysql:host=us-cdbr-east-04.cleardb.com";
+$dbname = "dbname=heroku_5142987c57081aa";
+$dbusername = "b64914f07d5e65";
+$dbpassword = "f742c533";
+
+try{
+    $pdo = new PDO($dbserver . $dbname, $dbusername, $dbpassword);
+    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    $pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_OBJ);
+}catch(PDOException $e){
+    echo $e->getMessage();
 }
+
 ?>

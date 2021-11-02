@@ -1,9 +1,8 @@
-
 <?php
 
-$dbserver = "us-cdbr-east-04.cleardb.com";
-$dbname = "heroku_5142987c57081aa";
-$dbusername = "b64914f07d5S";
+$dbserver = "mysql:host=us-cdbr-east-04.cleardb.com";
+$dbname = "dbname=heroku_5142987c57081aa";
+$dbusername = "b64914f07d5e65";
 $dbpassword = "f742c533";
 
 try{
