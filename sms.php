@@ -47,7 +47,7 @@ function sendSMS($cnumber, $vcode){
         // Insert your API here
         // 53316f0a4a7326fdad5c18608c9e53d3
         CURLOPT_HTTPHEADER => array(
-        "X-TXTBOX-Auth: 2d5ebffd0f558d60584eacf52151a8cf"
+        "X-TXTBOX-Auth: 4cda15eaa2c11f414b8627e0489805ed"
         ),
         ));
 
