@@ -20,7 +20,7 @@ $username = $_SESSION['username'];
 $contact = $_SESSION['contact'];
 
 if($inputtedCode == $correctCode){
-    $sql = "INSERT INTO tblusers (username, password, contact)
+    $sql = "INSERT INTO tblusers (username, contact)
     VALUES ('".$username."','".$contact."')";
     
     if ($conn->query($sql) === TRUE) {
