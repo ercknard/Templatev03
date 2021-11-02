@@ -1,6 +1,6 @@
 <?php
 /* Database credentials. Assuming you are running MySQL
-server with default setting (user 'root' with no password) */
+server with default setting (user 'root' with no password1) */
 define('DB_SERVER', 'us-cdbr-east-04.cleardb.com');
 define('DB_USERNAME', 'heroku_5142987c57081aa');
 define('DB_PASSWORD', 'f742c533');
