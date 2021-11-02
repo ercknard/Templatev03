@@ -31,7 +31,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
         <br>
         <hr>
         <br>
-        <a href="logout.php" class="btn btn-danger ml-3">Admin Dashboard</a>
+        <a href="logout.php" class="u-btn u-btn-round u-button-style u-gradient u-none u-radius-4 u-text-body-alt-color u-btn-1">Admin Dashboard</a>
     </p>
 </body>
 </html>
