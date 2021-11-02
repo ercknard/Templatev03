@@ -31,7 +31,7 @@ if($inputtedCode == $correctCode){
         $_SESSION['message'] = 'Something is wrong!';
     }
 
-    header('location: index.php');
+    header('location: reg.php');
 }else{
     $_SESSION['message_type'] = 'danger';
     $_SESSION['message'] = 'Incorrect Code. Please try again!';
