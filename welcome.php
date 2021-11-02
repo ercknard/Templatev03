@@ -23,11 +23,11 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     <h1 class="my-5">Hi, <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b>
     <br> Welcome Admin</h1>
     <p>
-        <a href="logout.php" class="p-3 mb-2 bg-gradient-primary">Admin Dashboard</a>
+        <a href="logout.php" class="btn p-3 mb-2 bg-gradient-primary">Admin Dashboard</a>
         <br>
         <hr>
         <br>
-        <a href="reset-password.php" class="p-3 mb-2 bg-gradient-primary">Reset Your Password</a>
+        <a href="reset-password.php" class="btn p-3 mb-2 bg-gradient-primary">Reset Your Password</a>
         <br>
         <hr>
         <br>
