@@ -34685,8 +34685,20 @@ a.u-link.u-text-hover-grey-90:hover {
     margin-right: 0;
   }
 }
-
-
+@media (max-width: 991px) {
+  .u-header .u-menu-1 {
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: 0;
+  }
+}
+@media (max-width: 767px) {
+  .u-header .u-menu-1 {
+    margin-top: -63px;
+    margin-right: 178px;
+    margin-left: auto;
+  }
+}
 @media (max-width: 575px) {
   .u-header .u-menu-1 {
     margin-right: 112px;

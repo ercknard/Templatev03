@@ -64,14 +64,11 @@
 }
 
 @media (max-width: 1199px) {
-  .u-section-1 .u-line-1 {
-    left: auto;
-    right: 567px;
-    margin: 148px auto 0 28px;
+  .u-section-1 .u-sheet-1 {
+    min-height: 534px;
   }
 
   .u-section-1 .u-text-1 {
-    width: 817px;
     margin-right: 37px;
     margin-left: 658px;
   }
@@ -84,7 +81,6 @@
   .u-section-1 .u-text-3 {
     margin-right: 0;
     margin-left: 493px;
-    width: 447px;
   }
 
   .u-section-1 .u-text-4 {
@@ -94,7 +90,6 @@
 
   .u-section-1 .u-btn-1 {
     margin-left: 583px;
-    width: 195px;
   }
 
   .u-section-1 .u-btn-2 {
@@ -103,26 +98,32 @@
 }
 
 @media (max-width: 991px) {
-  .u-section-1 .u-line-1 {
-    margin-left: 0;
+  .u-section-1 .u-sheet-1 {
+    min-height: 588px;
   }
 
   .u-section-1 .u-text-1 {
-    width: 720px;
     margin-right: 0;
     margin-left: 475px;
   }
 
   .u-section-1 .u-text-2 {
-    margin-right: 223px;
+    width: auto;
+    margin-top: -162px;
+    margin-right: 428px;
+    margin-left: 47px;
   }
 
   .u-section-1 .u-text-3 {
+    margin-top: 204px;
     margin-left: 273px;
   }
 
   .u-section-1 .u-text-4 {
-    margin-right: 273px;
+    margin-top: 20px;
+    margin-right: 0;
+    margin-left: 273px;
+    margin-bottom: initial;
   }
 
   .u-section-1 .u-btn-1 {
@@ -135,13 +136,18 @@
 }
 
 @media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 508px;
+  }
+
   .u-section-1 .u-text-1 {
-    width: 540px;
     margin-left: 295px;
   }
 
   .u-section-1 .u-text-2 {
+    margin-top: -39px;
     margin-right: 43px;
+    margin-left: 0;
   }
 
   .u-section-1 .u-text-3 {
@@ -149,7 +155,7 @@
   }
 
   .u-section-1 .u-text-4 {
-    margin-right: 93px;
+    margin: -44px 93px 0 0;
   }
 
   .u-section-1 .u-btn-1 {
@@ -160,18 +166,16 @@
 @media (max-width: 575px) {
   .u-section-1 .u-text-1 {
     font-size: 1.5rem;
-    width: 340px;
     margin-left: 95px;
   }
 
   .u-section-1 .u-text-2 {
     font-size: 1.5rem;
-    margin-right: 0;
+    margin-right: 95px;
   }
 
   .u-section-1 .u-text-3 {
     margin-left: 0;
-    width: 340px;
   }
 
   .u-section-1 .u-text-4 {
