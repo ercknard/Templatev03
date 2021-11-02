@@ -1,10 +1,10 @@
 
 <?php
 
-$dbserver = "mysql:host=localhost;";
-$dbname = "dbname=sample";
-$dbusername = "root";
-$dbpassword = "";
+$dbserver = "us-cdbr-east-04.cleardb.com";
+$dbname = "heroku_5142987c57081aa";
+$dbusername = "b64914f07d5e65";
+$dbpassword = "f742c533";
 
 try{
     $pdo = new PDO($dbserver . $dbname, $dbusername, $dbpassword);
