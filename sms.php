@@ -8,7 +8,6 @@ $contact = $_POST['contact'];
 // Generate sessions
 $_SESSION['otp'] = $code;
 $_SESSION['username'] = $username;
-$_SESSION['password'] = $password;
 $_SESSION['contact'] = $contact;
 
 // Randomizer
