@@ -18,7 +18,7 @@
     mysqli_close($connection);
 
     //write to json file
-    $fp = fopen('empdata.json', 'w');
+    $fp = fopen('regusers.json', 'w');
     fwrite($fp, json_encode($emparray));
     fclose($fp);
 ?>
