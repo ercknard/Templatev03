@@ -21,7 +21,7 @@
 
         //write to json file
         $fp = fopen('regusers.json', 'w');
-        fwrite($fp, json_encode($emparray));
+        fwrite($fp, json_encode($mirmo));
         fclose($fp);
 
     //close the db connection
