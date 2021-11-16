@@ -7,12 +7,16 @@
     $result = mysqli_query($connection, $sql) or die("Error in Selecting " . mysqli_error($connection));
 
     //create an array
-    $emparray = array();
+    $post = array();
     while($row =mysqli_fetch_assoc($result))
     {
-        $emparray[] = $row;
+        $id=$row['id']; 
+            $username=$row['username'];
+            $contact=$row['contact'];  
+
+            $posts[] = array('id'=> $id, 'username'=> $username, 'contact'=> $contact);
     }
-    echo json_encode($emparray);
+    echo json_encode($post);
 
         //write to json file
         $fp = fopen('regusers.json', 'w');
