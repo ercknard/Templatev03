@@ -7,6 +7,7 @@
     $result = mysqli_query($connection, $sql) or die("Error in Selecting " . mysqli_error($connection));
 
     //create an array
+    $mirmo = array();
     $post = array();
     while($row =mysqli_fetch_assoc($result))
     {
@@ -16,7 +17,7 @@
 
             $posts[] = array('id'=> $id, 'username'=> $username, 'contact'=> $contact);
     }
-    echo json_encode($post);
+    $mirmo['post'] = $post;
 
         //write to json file
         $fp = fopen('regusers.json', 'w');
