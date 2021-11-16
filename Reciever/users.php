@@ -12,13 +12,10 @@
     {
         $emparray[] = $row;
     }
-    echo json_encode($emparray);
-
-    //close the db connection
-    mysqli_close($connection);
-
-    //write to json file
     $fp = fopen('regusers.json', 'w');
     fwrite($fp, json_encode($emparray));
     fclose($fp);
+
+    //close the db connection
+    mysqli_close($connection);
 ?>
