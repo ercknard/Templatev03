@@ -16,4 +16,9 @@
 
     //close the db connection
     mysqli_close($connection);
+
+    //write to json file
+    $fp = fopen('empdata.json', 'w');
+    fwrite($fp, json_encode($emparray));
+    fclose($fp);
 ?>
